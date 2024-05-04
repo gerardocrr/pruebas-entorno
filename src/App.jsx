@@ -8,8 +8,8 @@ function App() {
 
   return (
     <div>
-      <div>{import.meta.env.VITE_SOME_KEY}</div>
-      <div>{import.meta.env.VITE_DB_PASSWORD}</div>
+      <div>{import.meta.env.SOME_KEY}</div>
+      <div>{import.meta.env.DB_PASSWORD}</div>
     </div>
   );
 }

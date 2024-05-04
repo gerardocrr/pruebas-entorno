@@ -4,7 +4,9 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
+  useState(() => {
+    console.log(import.meta.env.VITE_SOME_KEY);
+  }, []);
 
   return (
     <div>
